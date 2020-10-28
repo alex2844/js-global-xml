@@ -10,9 +10,14 @@ Security in case of vulnerabilities. (Безопасность в случае �
 
 ## [Unreleased]
 
+## [0.1.0] - 2020-10-29
+### Fixed
+- Google Apps Script
+
 ## [0.0.1] - 2020-10-28
 ### Added
 - Init
 
-[Unreleased]: ../../compare/v0.0.1...HEAD
+[Unreleased]: ../../compare/v0.1.0...HEAD
+[0.1.0]: ../../compare/v0.0.1...v0.1.0
 [0.0.1]: ../../releases/tag/v0.0.1
