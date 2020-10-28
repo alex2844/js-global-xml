@@ -1,6 +1,6 @@
 {
 	"name": "js-global-xml",
-	"version": "0.0.1",
+	"version": "0.1.0",
 	"description": "",
 	"main": "globalXml.js",
 	"module": "dist/globalXml.js",
