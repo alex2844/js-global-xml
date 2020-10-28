@@ -3,7 +3,7 @@
 	var XML = {
 		parse: function(xmlStr) {
 			if (typeof(XmlService) == 'object') {
-				var root = XmlService.parse(xml).getRootElement(),
+				var root = XmlService.parse(xmlStr).getRootElement(),
 					res = {};
 				res[root.getName()] = XML.el_gas(root);
 				return res;
