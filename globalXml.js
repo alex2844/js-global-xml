@@ -9,7 +9,7 @@
 				return res;
 			}else{
 				if ((typeof(DOMParser) == 'undefined') && (typeof(require) == 'function'))
-					global.DOMParser = require('xmldom').DOMParser;
+					global.DOMParser = module[`require`].bind(module)('xmldom').DOMParser;
 				return XML.el_node(new DOMParser().parseFromString(xmlStr, "text/xml"));
 			}
 		},
